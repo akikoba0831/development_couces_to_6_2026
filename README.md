@@ -80,6 +80,7 @@ docker compose exec app php artisan migrate
 ```
 
 エラーが出なければ、MySQL につながっています。
+最初はテーブルを 1 つも用意していないので、`Nothing to migrate.` と出れば正常です（テーブルは自分で設計して作ります）。
 
 ### 7. ブラウザで確認する
 
